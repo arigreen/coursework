@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Problem Set 2.1
 
 
