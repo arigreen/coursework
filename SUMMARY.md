@@ -2,5 +2,5 @@
 
 * [Adventures in Math](README.md)
 * [LinearAlgebra](linearalgebra/README.md)
-  * [chapter2.1](linearalgebra/chapter2.1.md)
+  * [Problem Set 2.1](linearalgebra/chapter2.1.md)
 
