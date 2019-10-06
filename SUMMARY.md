@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Welcome to GitHub Pages](README.md)
+* [Adventures in Math](README.md)
 * [LinearAlgebra](linearalgebra/README.md)
-  * [Welcome to GitHub Pages](linearalgebra/test.md)
-  * [chapter2](linearalgebra/chapter2.md)
-* [chapter2.1](chapter2.1.md)
+  * [chapter2.1](linearalgebra/chapter2.1.md)
 
