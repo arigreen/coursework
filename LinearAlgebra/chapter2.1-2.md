@@ -55,3 +55,64 @@ Q =
 \end{bmatrix}
 \begin{bmatrix}y \\ z \\ x \end{bmatrix}=
 \begin{bmatrix}x \\ y \\ z\end{bmatrix}$
+
+## Problem 18
+- What 2 by 2 matrix $E$ subtracts the first component from the second component?
+- What 3 by 3 matrix does the same?
+
+$
+\qquad E\begin{bmatrix}3 \\ 5\end{bmatrix}=\begin{bmatrix}3 \\ 2\end{bmatrix}
+\qquad E\begin{bmatrix}3 \\ 5 \\ 7\end{bmatrix}=\begin{bmatrix}3 \\ 2 \\ 7\end{bmatrix}
+$
+
+## Solution 18
+$
+E = \begin{bmatrix}
+    1 & 0 \\
+    -1 & 1
+    \end{bmatrix}
+\qquad
+E = \begin{bmatrix}
+    1 & 0 & 0\\
+    -1 & 1 & 0 \\
+    0 & 0 & 1
+    \end{bmatrix}
+$
+
+## Problem 19
+- What 3 by 3 matrix $E$ multiplies $(x, y, z)$ to give $(x, y, z+x)$?
+- What matrix $E^{-1}$ multiplies $(x, y, z)$ to give $(x,y,z-x)$?
+- If you multiply $(3,4,5)$ by $E$ and then multiply by $E^{-1}$, the two results are $?$ and $?$
+
+## Solution 19
+$
+E = \begin{bmatrix}
+    1 & 0 & 0\\
+    0 & 1 & 0 \\
+    1 & 0 & 1
+    \end{bmatrix}
+\qquad\qquad
+E^{-1} =
+\begin{bmatrix}
+    1 & 0 & 0\\
+    0 & 1 & 0 \\
+    -1 & 0 & 1
+\end{bmatrix}
+$
+
+$
+\begin{bmatrix}
+    1 & 0 & 0\\
+    0 & 1 & 0 \\
+    1 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}3 \\ 4 \\ 5\end{bmatrix}=
+\begin{bmatrix}3 \\ 4 \\ 8\end{bmatrix}\qquad
+\begin{bmatrix}
+    1 & 0 & 0\\
+    0 & 1 & 0 \\
+    -1 & 0 & 1
+\end{bmatrix}
+\begin{bmatrix}3 \\ 4 \\ 8\end{bmatrix}=
+\begin{bmatrix}3 \\ 4 \\ 5\end{bmatrix}
+$
